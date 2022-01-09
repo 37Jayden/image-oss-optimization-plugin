@@ -38,7 +38,7 @@ npm install --save-dev image-oss-optimization-plugin
   "accessKeyId": "你的keyId",
   "accessKeySecret": "你的accessKeySecret",
   "bucket": "你的bucket",
-  "ignoreNativeImages": [ 
+  "ignoreImages": [ 
     "/src/images/navigation",
     "/src/images/ic_back.png"
   ]
