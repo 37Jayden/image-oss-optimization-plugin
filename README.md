@@ -24,7 +24,7 @@ npm install --save-dev image-oss-optimization-plugin
   }
   "babel": {
     "plugins": [
-      "module:/image-oss-optimization-plugin"
+      "module:image-oss-optimization-plugin"
     ]
   }
 }
