@@ -20,7 +20,7 @@
     "react-native-screens": "^3.10.1"
   },
   "devDependencies": {
-    "image-oss-optimization-plugin": "^0.0.4"
+    "image-oss-optimization-plugin": "0.0.6"
   },
   "babel": {
     "plugins": [
