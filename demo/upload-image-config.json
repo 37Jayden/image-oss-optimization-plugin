@@ -1,0 +1,10 @@
+{    
+    "ossHost": "https://mobilern.oss-cn-beijing.aliyuncs.com",
+    "region": "oss-cn-beijing",
+    "accessKeyId": "LTAI5tQezSx18BEAWLZShNLF",
+    "accessKeySecret": "4RESaccC8Navw717536P6QD3YuoHTc",
+    "bucket": "mobilern",
+    "ignoreImages": [ 
+      "/src/images/ic_zrzq.png"
+    ]
+  }

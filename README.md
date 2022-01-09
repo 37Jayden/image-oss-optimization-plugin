@@ -31,9 +31,11 @@ npm install --save-dev image-oss-optimization-plugin
 3、 在主项目新增文件为：根目录/upload-image-config.json，配置如下信息
 ```
 {    
-  "cdnHost": "https://mcdn.jinhui365.com/mdl",
-  "projectName": "rn-jinhui",
-  "uploadUrl": "https://nodejs-production-service.jinhui365.com/file/upload-rn-image",
+  "ossHost": "https://my.oss-cn-beijing.aliyuncs.com",
+  "region": "oss-cn-beijing",
+  "accessKeyId": "你的keyId",
+  "accessKeySecret": "你的accessKeySecret",
+  "bucket": "你的bucket",
   "ignoreNativeImages": [ 
     "/src/images/navigation",
     "/src/images/ic_back.png"
@@ -43,6 +45,7 @@ npm install --save-dev image-oss-optimization-plugin
 
 |  参数   | 说明  |
 |  ----  | ----  |
+| ossHost | 图片访问地址，访问地址+md5能访问到，如https://my.oss-cn-beijing.aliyuncs.com/4a8da6930cae6e4cae54d7bae3498fbc.png|
 | region  | yourRegion填写Bucket所在地域。以华东1（杭州）为例，Region填写为oss-cn-hangzhou |
 | accessKeyId  | 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户 |
 | accessKeySecret  | 阿里云账号accessKeySecret |

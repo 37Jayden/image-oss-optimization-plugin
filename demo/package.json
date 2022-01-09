@@ -1,0 +1,30 @@
+{
+  "name": "my-react-native-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn react-native start --reset-cache",
+    "upload-image": "image-oss-optimization upload --target ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "react": "17.0.2",
+    "react-native": "^0.66.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1"
+  },
+  "devDependencies": {
+    "image-oss-optimization-plugin": "^0.0.4"
+  },
+  "babel": {
+    "plugins": [
+      "module:image-oss-optimization-plugin"
+    ]
+  }
+}
