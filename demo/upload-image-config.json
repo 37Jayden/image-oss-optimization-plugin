@@ -1,8 +1,8 @@
 {    
     "ossHost": "https://mobilern.oss-cn-beijing.aliyuncs.com",
     "region": "oss-cn-beijing",
-    "accessKeyId": "",
-    "accessKeySecret": "",
+    "accessKeyId": "替换成你的",
+    "accessKeySecret": "替换成你的",
     "bucket": "mobilern",
     "ignoreImages": [ 
       "/src/images/ic_zrzq.png"
