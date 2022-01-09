@@ -1,11 +1,11 @@
 {
   "name": "image-oss-optimization-plugin",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/monatheoctocat/my_package.git"
+    "url": "https://github.com/37Jayden/image-oss-optimization-plugin"
   },
   "bin": {
     "image-oss-optimization": "./bin/index.js"

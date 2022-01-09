@@ -7,6 +7,8 @@
 
 2、利用babel及AST抽象树，动态将本地资源替换为CND地址
 
+实现原理参考[React Native本地图片替换OSS图片](https://blog.csdn.net/JaydenKey/article/details/121720659)
+
 
 ### 使用
 1、在主项目package.json 引入此依赖

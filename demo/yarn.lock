@@ -2843,10 +2843,10 @@
   "resolved" "https://registry.npmjs.org/ignore/-/ignore-4.0.6.tgz"
   "version" "4.0.6"
 
-"image-oss-optimization-plugin@0.0.6":
-  "integrity" "sha512-BwfvhIDl24X3d+jTeO7THN/QV1glT/SyRMeKsNaXT4E8pasEE6elaoZ0XbLKPQCwpPOaHe/CVAisCFuDazPWCA=="
-  "resolved" "https://registry.npmjs.org/image-oss-optimization-plugin/-/image-oss-optimization-plugin-0.0.6.tgz"
-  "version" "0.0.6"
+"image-oss-optimization-plugin@0.0.8":
+  "integrity" "sha512-YJgetgFOQbPxOwVS8yTd6Cb1VgZdzUwLuTcoVtmTD4oTyBVYG+igjx3aNKzOOVJx6jpODHjY6VXW+l28HkU7xA=="
+  "resolved" "https://registry.npmjs.org/image-oss-optimization-plugin/-/image-oss-optimization-plugin-0.0.8.tgz"
+  "version" "0.0.8"
   dependencies:
     "ali-oss" "^6.16.0"
     "eslint" "^6.8.0"
