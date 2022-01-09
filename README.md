@@ -20,6 +20,7 @@ npm install --save-dev image-oss-optimization-plugin
 ```
 {
   "scripts": {
+    "start": "yarn react-native start --reset-cache",
     "upload-image": "image-oss-optimization upload --target ./src"
   }
   "babel": {
@@ -29,6 +30,8 @@ npm install --save-dev image-oss-optimization-plugin
   }
 }
 ```
+
+注意：start记得加上--reset-cache清理缓存
 
 3、 在主项目新增文件为：根目录/upload-image-config.json，配置如下信息
 ```
