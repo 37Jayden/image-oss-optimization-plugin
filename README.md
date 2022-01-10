@@ -5,7 +5,7 @@
 
 1、将本地图片上传至CDN
 
-2、利用babel及AST抽象树，动态将本地资源替换为CND地址
+2、利用babel及AST抽象树，动态将本地资源替换为OSS地址
 
 实现原理参考[React Native本地图片替换OSS图片](https://blog.csdn.net/JaydenKey/article/details/121720659)
 
@@ -77,4 +77,4 @@ npm run upload-image
 
 **打release包**
 
-打包模式下解压对应android-rn.zip或ios-rn.zip，看是否包含图片
+打包模式下看包内容是否包含图片
